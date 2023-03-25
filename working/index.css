@@ -1,5 +1,6 @@
 body {
     background-image: url("./assets/bg-main-desktop.png");
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .container {
     width: 1110px;
