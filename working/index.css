@@ -102,6 +102,9 @@ h2 {
 button {
     font-size: 1.125rem;
     font-weight: 700;
+}
+
+button:not(:last-of-type) {
     margin-bottom: 1em;
 }
 
