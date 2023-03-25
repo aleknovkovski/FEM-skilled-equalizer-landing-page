@@ -11,7 +11,8 @@ body {
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: 16px;
+    line-height: 26px;
     margin-bottom: 0.55em;
 }
 
@@ -20,9 +21,9 @@ footer p {
 }
 
 h1 {
-    font-size: 5.5rem;
+    font-size: 40px;
     margin-bottom: 0.55em;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 h2 {
@@ -31,59 +32,51 @@ h2 {
 }
 
 .logo-area {
-    margin-top: 61px;
+    margin-top: 40px;
 }
 
 .hero {
-    margin-top: 127px;
-    margin-bottom: 321px;
+    margin-top: 64px;
+    margin-bottom: 158px;
 }
 
 .hero-text {
-    line-height: 1.55;
-    width: 514px;
+    line-height: 1.625;
 }
 
 .container {
-    width: 768px;
-    margin: 0 auto;
+    padding: 1.5em;
 }
 
 .top-decorative-pattern {
-    width: 266px;
-    position: absolute;
-    top: -20px;
-    right: 0;
+    display: none;
 }
 
 .main-area {
-    width: 696px;
-    border-radius: 12px;
-    height: 600px;
-    background-size: 312px;
-    background: #191826 url("./assets/bg-pattern-3.svg") no-repeat top 0 left 316px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    margin: 0 auto 220px auto;
+    flex-direction: column;
+    border-radius: 12px;
+    background-size: 280px;
+    background: #191826 url("./assets/bg-pattern-2.svg") no-repeat center top;
+    align-items: center;
+    height: 800px;
+    margin-bottom: 200px;
 }
 
 .app-device {
-    width: 270px;
+    width: 210px;
     position: relative;
-    top: -180px;
-    left: 60px;
+    top: -90px;
 }
 
 .download-card {
-    width: 409px;
+    width: 100%;
     background: #FA7453;
     border-radius: 12px;
     padding: 48px 58px;
     color: #FCFAF9;
     position: relative;
-    bottom: -90px;
-    right: 60px;
+    top: -30px;
 }
 
 .download-card h1 {
@@ -106,7 +99,6 @@ h2 {
     margin: 0;
 }
 
-
 .download-card-pricing__price {
     font-size: 4.0625rem;
     font-weight: 700;
@@ -125,7 +117,96 @@ h2 {
     line-height: 32px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 5em;
+    gap: 2em;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-area {
+        margin-top: 61px;
+    }
+
+    .hero {
+        margin-top: 127px;
+        margin-bottom: 321px;
+    }
+
+    .main-area {
+        flex-direction: row;
+        width: 696px;
+        border-radius: 12px;
+        height: 600px;
+        background-size: 312px;
+        background: #191826 url("./assets/bg-pattern-3.svg") no-repeat top 0 left 316px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin: 0 auto 220px auto;
+    }
+
+    .app-device {
+        width: 270px;
+        position: relative;
+        top: -180px;
+        left: 60px;
+    }
+
+    .download-card {
+        width: 409px;
+        background: #FA7453;
+        border-radius: 12px;
+        padding: 48px 58px;
+        color: #FCFAF9;
+        position: relative;
+        bottom: -90px;
+        right: 60px;
+    }
+
+    .hero-text {
+        line-height: 1.55;
+        width: 514px;
+    }
+
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1.125rem;
+        margin-bottom: 0.55em;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+        margin-bottom: 0.55em;
+        line-height: 1;
+    }
+
+    .top-decorative-pattern {
+        display: block;
+        width: 266px;
+        position: absolute;
+        top: -20px;
+        right: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5em;
+    }
+}
+
 @media screen and (min-width: 1440px) {
+
     .container, .main-area {
         width: 1110px;
     }
@@ -211,14 +292,6 @@ button:not(:last-of-type) {
 
 .download-button_android:hover {
     background: rgba(255, 185, 100, 1);
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 5em;
 }
 
 .footer-logo-area {
