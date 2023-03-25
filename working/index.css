@@ -44,7 +44,13 @@ h2 {
     width: 825px;
 }
 
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
 .main-area {
+        width: 1110px;
     border-radius: 12px;
     height: 600px;
     background-size: 312px;
@@ -52,6 +58,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    margin: 0 auto 200px auto;
 }
 
 .app-device {
@@ -77,6 +84,7 @@ h2 {
 button {
     font-size: 1.125rem;
     font-weight: 700;
+    margin-bottom: 1em;
 }
 
 .download-button {
@@ -95,11 +103,6 @@ button {
     background: rgba(255, 185, 100, 1);
 }
 
-.container {
-    width: 1110px;
-    margin: 0 auto;
-}
-
 footer {
     display: flex;
     flex-direction: row;
@@ -107,6 +110,6 @@ footer {
     justify-content: space-between;
 }
 
-footer .logo-area {
+.footer-logo-area {
     align-self: flex-start;
 }
