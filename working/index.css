@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("./assets/bg-main-desktop.png");
     font-family: 'IBM Plex Sans', sans-serif;
