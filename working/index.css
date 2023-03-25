@@ -50,7 +50,7 @@ h2 {
 }
 
 .main-area {
-        width: 1110px;
+    width: 1110px;
     border-radius: 12px;
     height: 600px;
     background-size: 312px;
@@ -77,8 +77,26 @@ h2 {
     bottom: -100px;
 }
 
-.download-card__price span {
+.download-card p {
+    line-height: 1.7;
+    margin-bottom: 1.95em;
+}
+
+.download-card-pricing {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2.875rem;
+}
+
+.download-card-pricing p {
+    margin: 0;
+}
+
+
+.download-card-pricing__price {
     font-size: 4.0625rem;
+    font-weight: 700;
 }
 
 button {
