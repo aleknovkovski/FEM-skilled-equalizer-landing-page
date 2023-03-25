@@ -30,6 +30,15 @@ h2 {
     margin-bottom: 0.55em;
 }
 
+.logo-area {
+    margin-top: 61px;
+}
+
+.hero{
+    margin-top: 127px;
+    margin-bottom: 321px;
+}
+
 .hero-text {
     line-height: 1.7;
     width: 825px;
