@@ -49,6 +49,12 @@ h2 {
     margin: 0 auto;
 }
 
+.top-decorative-pattern {
+ position: absolute;
+    top: -40px;
+    right: 0;
+}
+
 .main-area {
     width: 1110px;
     border-radius: 12px;
