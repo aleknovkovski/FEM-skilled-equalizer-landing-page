@@ -4,7 +4,6 @@ body {
     font-size: 16px;
 }
 
-
 p {
     font-size: 1.25rem;
 }
@@ -19,6 +18,18 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+}
+
+.download-card {
+    width: 446px;
+    background: #FA7453;
+    border-radius: 12px;
+    padding: 3.625em;
+    color: #FCFAF9;
+}
+
+.download-card__price span {
+    font-size: 4.0625rem;
 }
 
 button {
