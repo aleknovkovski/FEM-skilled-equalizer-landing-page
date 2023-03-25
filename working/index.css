@@ -52,6 +52,12 @@ h2 {
     background-image: url("./assets/bg-pattern-3.svg");
     background-repeat: no-repeat;
     background-position: top center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-device {
+    width: 312px;
 }
 
 .download-card {
