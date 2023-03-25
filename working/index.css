@@ -51,6 +51,7 @@ h2 {
     background: #191826 url("./assets/bg-pattern-3.svg") no-repeat top 0 left 316px;
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 .app-device {
