@@ -50,7 +50,7 @@ h2 {
 }
 
 .top-decorative-pattern {
- position: absolute;
+    position: absolute;
     top: -40px;
     right: 0;
 }
@@ -168,4 +168,8 @@ footer {
 .social-icons {
     display: flex;
     gap: 20px;
+}
+
+.social-icons img:hover {
+    filter: invert(0.4) sepia(1) saturate(20) hue-rotate(259.2deg) brightness(1);
 }
