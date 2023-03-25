@@ -164,3 +164,8 @@ footer {
 .footer-logo-area {
     align-self: flex-start;
 }
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
