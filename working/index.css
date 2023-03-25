@@ -51,7 +51,7 @@ h2 {
     background-size: 312px;
     background-image: url("./assets/bg-pattern-3.svg");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 0px left 316px;
     display: flex;
     justify-content: space-around;
 }
