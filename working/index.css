@@ -45,13 +45,10 @@ h2 {
 }
 
 .main-area {
-    background: #191826;
     border-radius: 12px;
     height: 600px;
     background-size: 312px;
-    background-image: url("./assets/bg-pattern-3.svg");
-    background-repeat: no-repeat;
-    background-position: top 0px left 316px;
+    background: #191826 url("./assets/bg-pattern-3.svg") no-repeat top 0 left 316px;
     display: flex;
     justify-content: space-around;
 }
