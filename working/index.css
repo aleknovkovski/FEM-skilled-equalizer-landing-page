@@ -64,7 +64,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 220px auto;
 }
 
 .app-device {
@@ -154,11 +154,12 @@ button:not(:last-of-type) {
     background: rgba(255, 185, 100, 1);
 }
 
-footer {
+.footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 5em;
 }
 
 .footer-logo-area {
