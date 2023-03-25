@@ -12,6 +12,7 @@ body {
 
 p {
     font-size: 1.25rem;
+    margin-bottom: 0.55em;
 }
 
 footer p {
@@ -20,10 +21,18 @@ footer p {
 
 h1 {
     font-size: 5.5rem;
+    margin-bottom: 0.55em;
+    line-height: 1;
 }
 
 h2 {
     font-size: 2.5rem;
+    margin-bottom: 0.55em;
+}
+
+.hero-text {
+    line-height: 1.7;
+    width: 825px;
 }
 
 .download-card {
