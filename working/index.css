@@ -26,6 +26,22 @@ button {
     font-weight: 700;
 }
 
+.download-button {
+    width: 333px;
+    color: white;
+    padding: 0.777em 4.277em;
+    border-radius: 12px;
+    border-style: none;
+}
+
+.download-button_ios {
+    background: rgba(102, 226, 220, 1);
+}
+
+.download-button_android {
+    background: rgba(255, 185, 100, 1);
+}
+
 .container {
     width: 1110px;
     margin: 0 auto;
