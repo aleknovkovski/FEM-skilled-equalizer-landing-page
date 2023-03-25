@@ -121,9 +121,14 @@ button:not(:last-of-type) {
 .download-button {
     width: 333px;
     color: white;
-    padding: 0.777em 4.277em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0.777em;
     border-radius: 12px;
     border-style: none;
+    line-height: 32px;
 }
 
 .download-button_ios {
@@ -132,6 +137,7 @@ button:not(:last-of-type) {
 
 .download-button_android {
     background: rgba(255, 185, 100, 1);
+    color: #191826;
 }
 
 footer {
