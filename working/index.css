@@ -105,7 +105,6 @@ h2 {
 }
 
 .download-button {
-    width: 296px;
     color: white;
     display: flex;
     align-items: center;
@@ -133,7 +132,7 @@ h2 {
 
     .hero {
         margin-top: 127px;
-        margin-bottom: 321px;
+        margin-bottom: 211px;
     }
 
     .main-area {
@@ -142,17 +141,17 @@ h2 {
         border-radius: 12px;
         height: 600px;
         background-size: 312px;
-        background: #191826 url("./assets/bg-pattern-3.svg") no-repeat top 0 left 316px;
+        background: #191826 url("./assets/bg-pattern-3.svg") no-repeat center top;
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
-        margin: 0 auto 220px auto;
+        margin: 0 auto 180px auto;
     }
 
     .app-device {
         width: 270px;
         position: relative;
-        top: -180px;
+        top: -170px;
         left: 60px;
     }
 
@@ -160,10 +159,10 @@ h2 {
         width: 409px;
         background: #FA7453;
         border-radius: 12px;
-        padding: 48px 58px;
+        padding: 48px;
         color: #FCFAF9;
         position: relative;
-        bottom: -90px;
+        top: 120px;
         right: 60px;
     }
 
@@ -216,6 +215,11 @@ h2 {
         margin-bottom: 0.55em;
     }
 
+    .hero {
+        margin-top: 127px;
+        margin-bottom: 311px;
+    }
+
     .hero-text {
         line-height: 1.7;
         width: 825px;
@@ -255,10 +259,6 @@ h2 {
         line-height: 1.7;
         margin-bottom: 1.95em;
     }
-
-    .download-button {
-        width: 333px;
-    }
 }
 
 button {
@@ -272,6 +272,10 @@ button:hover {
 
 button:not(:last-of-type) {
     margin-bottom: 1em;
+}
+
+.download-button {
+    width: 100%;
 }
 
 
