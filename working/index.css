@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./assets/bg-main-desktop.png");
+    background-image: url("./assets/bg-main-mobile.png");
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
 }
@@ -83,9 +83,9 @@ h2 {
     margin-top: 0.75em;
 }
 
-.download-card p {
+.download-card__text {
     line-height: 1.55;
-    margin-bottom: 2em;
+    /*margin-bottom: 2em;*/
 }
 
 .download-card-pricing {
@@ -126,6 +126,10 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        background-image: url("./assets/bg-main-tablet.png");
+    }
+
     .logo-area {
         margin-top: 61px;
     }
@@ -140,7 +144,7 @@ h2 {
         width: 696px;
         border-radius: 12px;
         height: 600px;
-        background-size: 312px;
+        background-size: 280px;
         background: #191826 url("./assets/bg-pattern-3.svg") no-repeat center top;
         display: flex;
         justify-content: space-around;
@@ -182,6 +186,8 @@ h2 {
     }
 
     h1 {
+        position: relative;
+        z-index: 1;
         font-size: 5.5rem;
         margin-bottom: 0.55em;
         line-height: 1;
@@ -205,6 +211,9 @@ h2 {
 }
 
 @media screen and (min-width: 1440px) {
+    body {
+        background-image: url("./assets/bg-main-desktop.png");
+    }
 
     .container, .main-area {
         width: 1110px;
@@ -232,10 +241,17 @@ h2 {
         right: 0;
     }
 
+    .main-area {
+        background-size: 312px;
+        background: #191826 url("./assets/bg-pattern-3.svg") no-repeat left 340px top;
+        padding: 1.5em;
+        justify-content: space-between;
+    }
+
     .app-device {
         width: 312px;
         position: relative;
-        top: -200px;
+        top: -150px;
     }
 
     .download-card {
@@ -243,7 +259,7 @@ h2 {
         border-radius: 12px;
         padding: 48px 58px;
         position: relative;
-        bottom: -140px;
+        top: 170px;
     }
 
     .download-card-pricing {
@@ -255,7 +271,7 @@ h2 {
         margin-bottom: 0.55em;
     }
 
-    .download-card p {
+    .download-card__text {
         line-height: 1.7;
         margin-bottom: 1.95em;
     }
@@ -281,12 +297,10 @@ button:not(:last-of-type) {
 
 .download-button_ios {
     background: #191826;
-    /*background: rgba(102, 226, 220, 1);*/
 }
 
 .download-button_android {
     background: #FCFAF9;
-    /*background: rgba(255, 185, 100, 1);*/
     color: #191826;
 }
 
