@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/responsive-mobile-app-landing-page-with-tricky-element-positioning-w2whUQvRmM)
 - Live Site URL: [Hosted on GitHub Pages](https://aleknovkovski.github.io/FEM-skilled-equalizer-landing-page/working/)
 
 ## My process
